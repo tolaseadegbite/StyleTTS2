@@ -1,1 +1,24 @@
-__pycache__
+# Python virtual environment
+venv/
+.venv/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Large Model and Data Folders/Files
+Models/
+StyleTTS2-LibriTTS/
+Utils/ASR/epoch_00080.pth
+# Utils/JDC/bst.t7
+# Add other large files from Utils/PLBERT/ if needed
+
+# Local testing data and output files
+reference_audio/
+output.wav
+*.wav
+
+# IDE / OS specific files (good practice)
+.vscode/
+.idea/
+.DS_Store
